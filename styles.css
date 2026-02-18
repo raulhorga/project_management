@@ -40,11 +40,11 @@ body{
 .logo{
   width:56px;
   height:56px;
-  object-fit: cover;
-  border-radius: 12px;
-  border: 1px solid var(--border);
-  box-shadow: var(--shadow);
-  background: rgba(255,255,255,0.06);
+  object-fit: contain;   /* IMPORTANT pentru PNG transparent */
+  border-radius: 0;      /* fără rotunjire pe PNG */
+  border: none;          /* elimină rama */
+  box-shadow: none;      /* elimină shadow-ul */
+  background: transparent; /* fundal transparent */
 }
 
 .titles h1{
