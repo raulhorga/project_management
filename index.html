@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="ro">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Status proiect - 2025-2027</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <img class="logo" src="logo.jpg" alt="Logo firmă" />
+      <div class="titles">
+        <h1 id="projectTitle">Proiect: Platformă Internă - Status & Progres</h1>
+        <div class="subtitle">Vizualizare progres pe luni (2025–2027) • sursă: data.csv</div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="panel">
+      <div class="panel-head">
+        <h2>Grafic progres (Task × Lună)</h2>
+        <div class="legend">
+          <span class="legend-item"><span class="swatch"></span> progres 0–100%</span>
+          <span class="hint">Hover pe o celulă pentru detalii</span>
+        </div>
+      </div>
+
+      <div class="grid-wrap">
+        <div id="grid" class="grid" aria-label="Matrice progres"></div>
+      </div>
+
+      <div id="tooltip" class="tooltip" role="status" aria-live="polite"></div>
+    </section>
+
+    <section class="panel">
+      <div class="panel-head">
+        <h2>Rezumat task-uri (Status + comentariu)</h2>
+        <div class="hint">Status & comentariu sunt luate din ultimele înregistrări disponibile din CSV</div>
+      </div>
+
+      <div class="table-wrap">
+        <table class="summary">
+          <thead>
+            <tr>
+              <th>Task</th>
+              <th>Status</th>
+              <th>Comentariu (ultimul disponibil)</th>
+              <th>Progres curent</th>
+            </tr>
+          </thead>
+          <tbody id="summaryBody"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <span>Fișiere: index.html • styles.css • app.js • data.csv</span>
+    </footer>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

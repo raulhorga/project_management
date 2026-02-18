@@ -1,0 +1,541 @@
+task,year,month,progress,status,comment
+Analiză cerințe,2025,1,20,In Progress,"Workshop inițial cu stakeholderi; listă cerințe v1"
+Analiză cerințe,2025,2,45,In Progress,"Clarificări pe fluxuri; backlog prioritizat"
+Analiză cerințe,2025,3,70,In Progress,"Spec funcțională v1; criterii acceptanță"
+Analiză cerințe,2025,4,85,In Progress,"Revizie cu echipa; gap-uri identificate"
+Analiză cerințe,2025,5,95,In Review,"Review final; semnare aproape completă"
+Analiză cerințe,2025,6,100,Done,"Documentația finală aprobată"
+Analiză cerințe,2025,7,100,Done,"Menținut"
+Analiză cerințe,2025,8,100,Done,"Menținut"
+Analiză cerințe,2025,9,100,Done,"Menținut"
+Analiză cerințe,2025,10,100,Done,"Menținut"
+Analiză cerințe,2025,11,100,Done,"Menținut"
+Analiză cerințe,2025,12,100,Done,"Menținut"
+Arhitectură soluție,2025,1,10,In Progress,"Draft arhitectură; identificare integrări"
+Arhitectură soluție,2025,2,25,In Progress,"Diagrama componente; decizii tehnice inițiale"
+Arhitectură soluție,2025,3,40,In Progress,"ADR-uri principale; definire API high-level"
+Arhitectură soluție,2025,4,55,In Progress,"Revizie securitate; actualizare model date"
+Arhitectură soluție,2025,5,70,In Progress,"Proof-of-concept pe integrare; estimări"
+Arhitectură soluție,2025,6,80,In Review,"Review final arhitectură; acțiuni minore"
+Arhitectură soluție,2025,7,90,In Progress,"Îmbunătățiri după review; documentare"
+Arhitectură soluție,2025,8,95,In Review,"Validare performanță; completare ADR-uri"
+Arhitectură soluție,2025,9,100,Done,"Arhitectură stabilizată și aprobată"
+Arhitectură soluție,2025,10,100,Done,"Menținut"
+Arhitectură soluție,2025,11,100,Done,"Menținut"
+Arhitectură soluție,2025,12,100,Done,"Menținut"
+UI/UX Design,2025,1,5,In Progress,"Moodboard și direcții vizuale"
+UI/UX Design,2025,2,20,In Progress,"Wireframes pentru ecrane principale"
+UI/UX Design,2025,3,35,In Progress,"Prototip click-through v1"
+UI/UX Design,2025,4,50,In Progress,"Test rapid usability; feedback colectat"
+UI/UX Design,2025,5,65,In Progress,"Iterații; component library v1"
+UI/UX Design,2025,6,75,In Progress,"Design pentru fluxuri secundare"
+UI/UX Design,2025,7,85,In Review,"Review cu business; ajustări fine"
+UI/UX Design,2025,8,92,In Progress,"Hand-off către dev; asset-uri"
+UI/UX Design,2025,9,96,In Review,"Aliniere pe responsive + accesibilitate"
+UI/UX Design,2025,10,100,Done,"Design finalizat"
+UI/UX Design,2025,11,100,Done,"Menținut"
+UI/UX Design,2025,12,100,Done,"Menținut"
+Setup infrastructură,2025,1,15,In Progress,"Repo-uri, convenții, pipeline CI draft"
+Setup infrastructură,2025,2,35,In Progress,"CI stabil; environment dev"
+Setup infrastructură,2025,3,55,In Progress,"CD către staging; secret management"
+Setup infrastructură,2025,4,70,In Progress,"Observability de bază; logs/metrics"
+Setup infrastructură,2025,5,80,In Progress,"Hardening; backup-uri"
+Setup infrastructură,2025,6,90,In Review,"Audit scurt; remediere"
+Setup infrastructură,2025,7,100,Done,"Infrastructură gata pentru livrare"
+Setup infrastructură,2025,8,100,Done,"Menținut"
+Setup infrastructură,2025,9,100,Done,"Menținut"
+Setup infrastructură,2025,10,100,Done,"Menținut"
+Setup infrastructură,2025,11,100,Done,"Menținut"
+Setup infrastructură,2025,12,100,Done,"Menținut"
+Backend - Auth & Users,2025,1,0,Planned,"Planificare inițială"
+Backend - Auth & Users,2025,2,10,In Progress,"Model user; endpoint login draft"
+Backend - Auth & Users,2025,3,25,In Progress,"JWT + refresh; permisiuni de bază"
+Backend - Auth & Users,2025,4,40,In Progress,"RBAC; audit log"
+Backend - Auth & Users,2025,5,55,In Progress,"Integrare SSO (draft); teste unitare"
+Backend - Auth & Users,2025,6,70,In Progress,"Stabilizare; rate limiting"
+Backend - Auth & Users,2025,7,80,In Review,"Review securitate; fix-uri"
+Backend - Auth & Users,2025,8,90,In Progress,"Integrare cu UI; bugfix"
+Backend - Auth & Users,2025,9,100,Done,"Auth/Users complet"
+Backend - Auth & Users,2025,10,100,Done,"Menținut"
+Backend - Auth & Users,2025,11,100,Done,"Menținut"
+Backend - Auth & Users,2025,12,100,Done,"Menținut"
+Backend - Task Management,2025,1,0,Planned,"Planificare inițială"
+Backend - Task Management,2025,2,5,In Progress,"Schema DB; CRUD draft"
+Backend - Task Management,2025,3,15,In Progress,"Validări; căutare"
+Backend - Task Management,2025,4,30,In Progress,"Filtre; pagination"
+Backend - Task Management,2025,5,45,In Progress,"Workflow state machine (draft)"
+Backend - Task Management,2025,6,60,In Progress,"Notificări; integrare cu auth"
+Backend - Task Management,2025,7,70,In Progress,"Optimizări query; indexuri"
+Backend - Task Management,2025,8,85,In Review,"Review API; testare"
+Backend - Task Management,2025,9,92,In Progress,"Bugfix; aliniere cu UI"
+Backend - Task Management,2025,10,100,Done,"Feature complet și stabilizat"
+Backend - Task Management,2025,11,100,Done,"Menținut"
+Backend - Task Management,2025,12,100,Done,"Menținut"
+Frontend - Dashboard,2025,1,0,Planned,"Planificare inițială"
+Frontend - Dashboard,2025,2,8,In Progress,"Layout; routing"
+Frontend - Dashboard,2025,3,20,In Progress,"Componente chart/table; mock data"
+Frontend - Dashboard,2025,4,35,In Progress,"Integrare API; state management"
+Frontend - Dashboard,2025,5,50,In Progress,"Filtre; căutare; paginare"
+Frontend - Dashboard,2025,6,65,In Progress,"UX polish; empty states"
+Frontend - Dashboard,2025,7,75,In Progress,"Permisiuni; guard-uri"
+Frontend - Dashboard,2025,8,85,In Review,"Review UI; bugfix"
+Frontend - Dashboard,2025,9,95,In Progress,"Performanță; caching"
+Frontend - Dashboard,2025,10,100,Done,"Dashboard final"
+Frontend - Dashboard,2025,11,100,Done,"Menținut"
+Frontend - Dashboard,2025,12,100,Done,"Menținut"
+Integrare API extern,2025,1,0,Planned,"Identificare furnizor; acces"
+Integrare API extern,2025,2,10,In Progress,"Contract API; chei acces"
+Integrare API extern,2025,3,20,In Progress,"Client HTTP; retry/backoff"
+Integrare API extern,2025,4,35,In Progress,"Mapare date; transformări"
+Integrare API extern,2025,5,50,In Progress,"Job sincronizare; logging"
+Integrare API extern,2025,6,60,In Progress,"Rate limits; monitorizare"
+Integrare API extern,2025,7,70,In Progress,"Testare pe staging; ajustări"
+Integrare API extern,2025,8,80,In Review,"Review contract; cazuri limită"
+Integrare API extern,2025,9,90,In Progress,"Bugfix; stabilizare"
+Integrare API extern,2025,10,100,Done,"Integrare completă"
+Integrare API extern,2025,11,100,Done,"Menținut"
+Integrare API extern,2025,12,100,Done,"Menținut"
+Testare (QA),2025,1,0,Planned,"Plan QA inițial"
+Testare (QA),2025,2,5,In Progress,"Test cases pentru auth"
+Testare (QA),2025,3,12,In Progress,"Test cases pentru task mgmt"
+Testare (QA),2025,4,25,In Progress,"Smoke tests; raportare bug-uri"
+Testare (QA),2025,5,40,In Progress,"Regression pe staging"
+Testare (QA),2025,6,55,In Progress,"E2E scenarii principale"
+Testare (QA),2025,7,65,In Progress,"Stabilizare; retest"
+Testare (QA),2025,8,75,In Progress,"Automatizări inițiale"
+Testare (QA),2025,9,85,In Review,"Criterii release; semnare"
+Testare (QA),2025,10,95,In Progress,"Bugfix final; retest complet"
+Testare (QA),2025,11,100,Done,"QA finalizat pentru release"
+Testare (QA),2025,12,100,Done,"Menținut"
+Securitate & conformitate,2025,1,0,Planned,"Checklist inițial"
+Securitate & conformitate,2025,2,8,In Progress,"Threat modeling"
+Securitate & conformitate,2025,3,18,In Progress,"Politici parole; RBAC"
+Securitate & conformitate,2025,4,30,In Progress,"Scan dependențe; fix-uri"
+Securitate & conformitate,2025,5,45,In Progress,"Hardening config; audit log"
+Securitate & conformitate,2025,6,55,In Progress,"Test pen intern (draft)"
+Securitate & conformitate,2025,7,70,In Progress,"Remedieri; aliniere GDPR"
+Securitate & conformitate,2025,8,80,In Review,"Review final; documentare"
+Securitate & conformitate,2025,9,90,In Progress,"Fix-uri minore"
+Securitate & conformitate,2025,10,100,Done,"Securitate/compliance gata"
+Securitate & conformitate,2025,11,100,Done,"Menținut"
+Securitate & conformitate,2025,12,100,Done,"Menținut"
+Documentație,2025,1,5,In Progress,"Structură docs; README"
+Documentație,2025,2,12,In Progress,"Ghid instalare dev"
+Documentație,2025,3,20,In Progress,"API docs (draft)"
+Documentație,2025,4,30,In Progress,"User guide v1"
+Documentație,2025,5,40,In Progress,"Runbooks ops (draft)"
+Documentație,2025,6,55,In Progress,"Capturi ecran; clarificări"
+Documentație,2025,7,65,In Progress,"FAQ; troubleshooting"
+Documentație,2025,8,75,In Progress,"Revizie cu echipele"
+Documentație,2025,9,85,In Review,"Corecții; aliniere"
+Documentație,2025,10,95,In Progress,"Finalizare; formatare"
+Documentație,2025,11,100,Done,"Documentație completă"
+Documentație,2025,12,100,Done,"Menținut"
+Training utilizatori,2025,1,0,Planned,"Plan training inițial"
+Training utilizatori,2025,2,0,Planned,"Planificare sesiuni"
+Training utilizatori,2025,3,5,In Progress,"Materiale draft"
+Training utilizatori,2025,4,15,In Progress,"Demo intern"
+Training utilizatori,2025,5,25,In Progress,"Manual utilizator v1"
+Training utilizatori,2025,6,40,In Progress,"Sesiune pilot; feedback"
+Training utilizatori,2025,7,55,In Progress,"Îmbunătățire materiale"
+Training utilizatori,2025,8,70,In Progress,"Sesiuni echipe cheie"
+Training utilizatori,2025,9,85,In Progress,"Sesiuni extinse"
+Training utilizatori,2025,10,95,In Review,"Checklist adoptare"
+Training utilizatori,2025,11,100,Done,"Training finalizat"
+Training utilizatori,2025,12,100,Done,"Menținut"
+Go-Live & stabilizare,2025,1,0,Planned,"Plan go-live inițial"
+Go-Live & stabilizare,2025,2,0,Planned,"Calendar livrare"
+Go-Live & stabilizare,2025,3,5,In Progress,"Staging stabil; plan rollback"
+Go-Live & stabilizare,2025,4,12,In Progress,"Dry-run deployment"
+Go-Live & stabilizare,2025,5,25,In Progress,"Checklist release; comunicare"
+Go-Live & stabilizare,2025,6,40,In Progress,"Go-live parțial; monitorizare"
+Go-Live & stabilizare,2025,7,55,In Progress,"Bugfix; stabilizare"
+Go-Live & stabilizare,2025,8,70,In Progress,"Optimizări; feedback"
+Go-Live & stabilizare,2025,9,85,In Progress,"Stabilizare majoră"
+Go-Live & stabilizare,2025,10,95,In Review,"Post-release review"
+Go-Live & stabilizare,2025,11,100,Done,"Stabilizare completă"
+Go-Live & stabilizare,2025,12,100,Done,"Menținut"
+Raportare & KPI,2025,1,0,Planned,"Definire KPI-uri"
+Raportare & KPI,2025,2,10,In Progress,"Spec rapoarte; mock"
+Raportare & KPI,2025,3,20,In Progress,"Model date rapoarte"
+Raportare & KPI,2025,4,35,In Progress,"Dashboard KPI (draft)"
+Raportare & KPI,2025,5,50,In Progress,"Filtre + export"
+Raportare & KPI,2025,6,60,In Progress,"Validare KPI; corecții"
+Raportare & KPI,2025,7,70,In Progress,"Optimizare; caching"
+Raportare & KPI,2025,8,80,In Review,"Review business; ajustări"
+Raportare & KPI,2025,9,90,In Progress,"Bugfix; polish"
+Raportare & KPI,2025,10,100,Done,"Rapoarte & KPI final"
+Raportare & KPI,2025,11,100,Done,"Menținut"
+Raportare & KPI,2025,12,100,Done,"Menținut"
+Management schimbări,2025,1,5,In Progress,"Stakeholder map; plan comunicare"
+Management schimbări,2025,2,12,In Progress,"Mesaje cheie; canale"
+Management schimbări,2025,3,20,In Progress,"Q&A; feedback loop"
+Management schimbări,2025,4,30,In Progress,"Comunicare release; materiale"
+Management schimbări,2025,5,45,In Progress,"Pilot; colectare feedback"
+Management schimbări,2025,6,55,In Progress,"Ajustări proces; adoptare"
+Management schimbări,2025,7,65,In Progress,"Campanie internă; reminders"
+Management schimbări,2025,8,75,In Progress,"Măsurare adoptare; acțiuni"
+Management schimbări,2025,9,85,In Review,"Revizie plan; concluzii"
+Management schimbări,2025,10,95,In Progress,"Stabilizare; suport"
+Management schimbări,2025,11,100,Done,"Adoptare completă"
+Management schimbări,2025,12,100,Done,"Menținut"
+Analiză cerințe,2026,1,0,,
+Analiză cerințe,2026,2,0,,
+Analiză cerințe,2026,3,0,,
+Analiză cerințe,2026,4,0,,
+Analiză cerințe,2026,5,0,,
+Analiză cerințe,2026,6,0,,
+Analiză cerințe,2026,7,0,,
+Analiză cerințe,2026,8,0,,
+Analiză cerințe,2026,9,0,,
+Analiză cerințe,2026,10,0,,
+Analiză cerințe,2026,11,0,,
+Analiză cerințe,2026,12,0,,
+Arhitectură soluție,2026,1,0,,
+Arhitectură soluție,2026,2,0,,
+Arhitectură soluție,2026,3,0,,
+Arhitectură soluție,2026,4,0,,
+Arhitectură soluție,2026,5,0,,
+Arhitectură soluție,2026,6,0,,
+Arhitectură soluție,2026,7,0,,
+Arhitectură soluție,2026,8,0,,
+Arhitectură soluție,2026,9,0,,
+Arhitectură soluție,2026,10,0,,
+Arhitectură soluție,2026,11,0,,
+Arhitectură soluție,2026,12,0,,
+UI/UX Design,2026,1,0,,
+UI/UX Design,2026,2,0,,
+UI/UX Design,2026,3,0,,
+UI/UX Design,2026,4,0,,
+UI/UX Design,2026,5,0,,
+UI/UX Design,2026,6,0,,
+UI/UX Design,2026,7,0,,
+UI/UX Design,2026,8,0,,
+UI/UX Design,2026,9,0,,
+UI/UX Design,2026,10,0,,
+UI/UX Design,2026,11,0,,
+UI/UX Design,2026,12,0,,
+Setup infrastructură,2026,1,0,,
+Setup infrastructură,2026,2,0,,
+Setup infrastructură,2026,3,0,,
+Setup infrastructură,2026,4,0,,
+Setup infrastructură,2026,5,0,,
+Setup infrastructură,2026,6,0,,
+Setup infrastructură,2026,7,0,,
+Setup infrastructură,2026,8,0,,
+Setup infrastructură,2026,9,0,,
+Setup infrastructură,2026,10,0,,
+Setup infrastructură,2026,11,0,,
+Setup infrastructură,2026,12,0,,
+Backend - Auth & Users,2026,1,0,,
+Backend - Auth & Users,2026,2,0,,
+Backend - Auth & Users,2026,3,0,,
+Backend - Auth & Users,2026,4,0,,
+Backend - Auth & Users,2026,5,0,,
+Backend - Auth & Users,2026,6,0,,
+Backend - Auth & Users,2026,7,0,,
+Backend - Auth & Users,2026,8,0,,
+Backend - Auth & Users,2026,9,0,,
+Backend - Auth & Users,2026,10,0,,
+Backend - Auth & Users,2026,11,0,,
+Backend - Auth & Users,2026,12,0,,
+Backend - Task Management,2026,1,0,,
+Backend - Task Management,2026,2,0,,
+Backend - Task Management,2026,3,0,,
+Backend - Task Management,2026,4,0,,
+Backend - Task Management,2026,5,0,,
+Backend - Task Management,2026,6,0,,
+Backend - Task Management,2026,7,0,,
+Backend - Task Management,2026,8,0,,
+Backend - Task Management,2026,9,0,,
+Backend - Task Management,2026,10,0,,
+Backend - Task Management,2026,11,0,,
+Backend - Task Management,2026,12,0,,
+Frontend - Dashboard,2026,1,0,,
+Frontend - Dashboard,2026,2,0,,
+Frontend - Dashboard,2026,3,0,,
+Frontend - Dashboard,2026,4,0,,
+Frontend - Dashboard,2026,5,0,,
+Frontend - Dashboard,2026,6,0,,
+Frontend - Dashboard,2026,7,0,,
+Frontend - Dashboard,2026,8,0,,
+Frontend - Dashboard,2026,9,0,,
+Frontend - Dashboard,2026,10,0,,
+Frontend - Dashboard,2026,11,0,,
+Frontend - Dashboard,2026,12,0,,
+Integrare API extern,2026,1,0,,
+Integrare API extern,2026,2,0,,
+Integrare API extern,2026,3,0,,
+Integrare API extern,2026,4,0,,
+Integrare API extern,2026,5,0,,
+Integrare API extern,2026,6,0,,
+Integrare API extern,2026,7,0,,
+Integrare API extern,2026,8,0,,
+Integrare API extern,2026,9,0,,
+Integrare API extern,2026,10,0,,
+Integrare API extern,2026,11,0,,
+Integrare API extern,2026,12,0,,
+Testare (QA),2026,1,0,,
+Testare (QA),2026,2,0,,
+Testare (QA),2026,3,0,,
+Testare (QA),2026,4,0,,
+Testare (QA),2026,5,0,,
+Testare (QA),2026,6,0,,
+Testare (QA),2026,7,0,,
+Testare (QA),2026,8,0,,
+Testare (QA),2026,9,0,,
+Testare (QA),2026,10,0,,
+Testare (QA),2026,11,0,,
+Testare (QA),2026,12,0,,
+Securitate & conformitate,2026,1,0,,
+Securitate & conformitate,2026,2,0,,
+Securitate & conformitate,2026,3,0,,
+Securitate & conformitate,2026,4,0,,
+Securitate & conformitate,2026,5,0,,
+Securitate & conformitate,2026,6,0,,
+Securitate & conformitate,2026,7,0,,
+Securitate & conformitate,2026,8,0,,
+Securitate & conformitate,2026,9,0,,
+Securitate & conformitate,2026,10,0,,
+Securitate & conformitate,2026,11,0,,
+Securitate & conformitate,2026,12,0,,
+Documentație,2026,1,0,,
+Documentație,2026,2,0,,
+Documentație,2026,3,0,,
+Documentație,2026,4,0,,
+Documentație,2026,5,0,,
+Documentație,2026,6,0,,
+Documentație,2026,7,0,,
+Documentație,2026,8,0,,
+Documentație,2026,9,0,,
+Documentație,2026,10,0,,
+Documentație,2026,11,0,,
+Documentație,2026,12,0,,
+Training utilizatori,2026,1,0,,
+Training utilizatori,2026,2,0,,
+Training utilizatori,2026,3,0,,
+Training utilizatori,2026,4,0,,
+Training utilizatori,2026,5,0,,
+Training utilizatori,2026,6,0,,
+Training utilizatori,2026,7,0,,
+Training utilizatori,2026,8,0,,
+Training utilizatori,2026,9,0,,
+Training utilizatori,2026,10,0,,
+Training utilizatori,2026,11,0,,
+Training utilizatori,2026,12,0,,
+Go-Live & stabilizare,2026,1,0,,
+Go-Live & stabilizare,2026,2,0,,
+Go-Live & stabilizare,2026,3,0,,
+Go-Live & stabilizare,2026,4,0,,
+Go-Live & stabilizare,2026,5,0,,
+Go-Live & stabilizare,2026,6,0,,
+Go-Live & stabilizare,2026,7,0,,
+Go-Live & stabilizare,2026,8,0,,
+Go-Live & stabilizare,2026,9,0,,
+Go-Live & stabilizare,2026,10,0,,
+Go-Live & stabilizare,2026,11,0,,
+Go-Live & stabilizare,2026,12,0,,
+Raportare & KPI,2026,1,0,,
+Raportare & KPI,2026,2,0,,
+Raportare & KPI,2026,3,0,,
+Raportare & KPI,2026,4,0,,
+Raportare & KPI,2026,5,0,,
+Raportare & KPI,2026,6,0,,
+Raportare & KPI,2026,7,0,,
+Raportare & KPI,2026,8,0,,
+Raportare & KPI,2026,9,0,,
+Raportare & KPI,2026,10,0,,
+Raportare & KPI,2026,11,0,,
+Raportare & KPI,2026,12,0,,
+Management schimbări,2026,1,0,,
+Management schimbări,2026,2,0,,
+Management schimbări,2026,3,0,,
+Management schimbări,2026,4,0,,
+Management schimbări,2026,5,0,,
+Management schimbări,2026,6,0,,
+Management schimbări,2026,7,0,,
+Management schimbări,2026,8,0,,
+Management schimbări,2026,9,0,,
+Management schimbări,2026,10,0,,
+Management schimbări,2026,11,0,,
+Management schimbări,2026,12,0,,
+Analiză cerințe,2027,1,0,,
+Analiză cerințe,2027,2,0,,
+Analiză cerințe,2027,3,0,,
+Analiză cerințe,2027,4,0,,
+Analiză cerințe,2027,5,0,,
+Analiză cerințe,2027,6,0,,
+Analiză cerințe,2027,7,0,,
+Analiză cerințe,2027,8,0,,
+Analiză cerințe,2027,9,0,,
+Analiză cerințe,2027,10,0,,
+Analiză cerințe,2027,11,0,,
+Analiză cerințe,2027,12,0,,
+Arhitectură soluție,2027,1,0,,
+Arhitectură soluție,2027,2,0,,
+Arhitectură soluție,2027,3,0,,
+Arhitectură soluție,2027,4,0,,
+Arhitectură soluție,2027,5,0,,
+Arhitectură soluție,2027,6,0,,
+Arhitectură soluție,2027,7,0,,
+Arhitectură soluție,2027,8,0,,
+Arhitectură soluție,2027,9,0,,
+Arhitectură soluție,2027,10,0,,
+Arhitectură soluție,2027,11,0,,
+Arhitectură soluție,2027,12,0,,
+UI/UX Design,2027,1,0,,
+UI/UX Design,2027,2,0,,
+UI/UX Design,2027,3,0,,
+UI/UX Design,2027,4,0,,
+UI/UX Design,2027,5,0,,
+UI/UX Design,2027,6,0,,
+UI/UX Design,2027,7,0,,
+UI/UX Design,2027,8,0,,
+UI/UX Design,2027,9,0,,
+UI/UX Design,2027,10,0,,
+UI/UX Design,2027,11,0,,
+UI/UX Design,2027,12,0,,
+Setup infrastructură,2027,1,0,,
+Setup infrastructură,2027,2,0,,
+Setup infrastructură,2027,3,0,,
+Setup infrastructură,2027,4,0,,
+Setup infrastructură,2027,5,0,,
+Setup infrastructură,2027,6,0,,
+Setup infrastructură,2027,7,0,,
+Setup infrastructură,2027,8,0,,
+Setup infrastructură,2027,9,0,,
+Setup infrastructură,2027,10,0,,
+Setup infrastructură,2027,11,0,,
+Setup infrastructură,2027,12,0,,
+Backend - Auth & Users,2027,1,0,,
+Backend - Auth & Users,2027,2,0,,
+Backend - Auth & Users,2027,3,0,,
+Backend - Auth & Users,2027,4,0,,
+Backend - Auth & Users,2027,5,0,,
+Backend - Auth & Users,2027,6,0,,
+Backend - Auth & Users,2027,7,0,,
+Backend - Auth & Users,2027,8,0,,
+Backend - Auth & Users,2027,9,0,,
+Backend - Auth & Users,2027,10,0,,
+Backend - Auth & Users,2027,11,0,,
+Backend - Auth & Users,2027,12,0,,
+Backend - Task Management,2027,1,0,,
+Backend - Task Management,2027,2,0,,
+Backend - Task Management,2027,3,0,,
+Backend - Task Management,2027,4,0,,
+Backend - Task Management,2027,5,0,,
+Backend - Task Management,2027,6,0,,
+Backend - Task Management,2027,7,0,,
+Backend - Task Management,2027,8,0,,
+Backend - Task Management,2027,9,0,,
+Backend - Task Management,2027,10,0,,
+Backend - Task Management,2027,11,0,,
+Backend - Task Management,2027,12,0,,
+Frontend - Dashboard,2027,1,0,,
+Frontend - Dashboard,2027,2,0,,
+Frontend - Dashboard,2027,3,0,,
+Frontend - Dashboard,2027,4,0,,
+Frontend - Dashboard,2027,5,0,,
+Frontend - Dashboard,2027,6,0,,
+Frontend - Dashboard,2027,7,0,,
+Frontend - Dashboard,2027,8,0,,
+Frontend - Dashboard,2027,9,0,,
+Frontend - Dashboard,2027,10,0,,
+Frontend - Dashboard,2027,11,0,,
+Frontend - Dashboard,2027,12,0,,
+Integrare API extern,2027,1,0,,
+Integrare API extern,2027,2,0,,
+Integrare API extern,2027,3,0,,
+Integrare API extern,2027,4,0,,
+Integrare API extern,2027,5,0,,
+Integrare API extern,2027,6,0,,
+Integrare API extern,2027,7,0,,
+Integrare API extern,2027,8,0,,
+Integrare API extern,2027,9,0,,
+Integrare API extern,2027,10,0,,
+Integrare API extern,2027,11,0,,
+Integrare API extern,2027,12,0,,
+Testare (QA),2027,1,0,,
+Testare (QA),2027,2,0,,
+Testare (QA),2027,3,0,,
+Testare (QA),2027,4,0,,
+Testare (QA),2027,5,0,,
+Testare (QA),2027,6,0,,
+Testare (QA),2027,7,0,,
+Testare (QA),2027,8,0,,
+Testare (QA),2027,9,0,,
+Testare (QA),2027,10,0,,
+Testare (QA),2027,11,0,,
+Testare (QA),2027,12,0,,
+Securitate & conformitate,2027,1,0,,
+Securitate & conformitate,2027,2,0,,
+Securitate & conformitate,2027,3,0,,
+Securitate & conformitate,2027,4,0,,
+Securitate & conformitate,2027,5,0,,
+Securitate & conformitate,2027,6,0,,
+Securitate & conformitate,2027,7,0,,
+Securitate & conformitate,2027,8,0,,
+Securitate & conformitate,2027,9,0,,
+Securitate & conformitate,2027,10,0,,
+Securitate & conformitate,2027,11,0,,
+Securitate & conformitate,2027,12,0,,
+Documentație,2027,1,0,,
+Documentație,2027,2,0,,
+Documentație,2027,3,0,,
+Documentație,2027,4,0,,
+Documentație,2027,5,0,,
+Documentație,2027,6,0,,
+Documentație,2027,7,0,,
+Documentație,2027,8,0,,
+Documentație,2027,9,0,,
+Documentație,2027,10,0,,
+Documentație,2027,11,0,,
+Documentație,2027,12,0,,
+Training utilizatori,2027,1,0,,
+Training utilizatori,2027,2,0,,
+Training utilizatori,2027,3,0,,
+Training utilizatori,2027,4,0,,
+Training utilizatori,2027,5,0,,
+Training utilizatori,2027,6,0,,
+Training utilizatori,2027,7,0,,
+Training utilizatori,2027,8,0,,
+Training utilizatori,2027,9,0,,
+Training utilizatori,2027,10,0,,
+Training utilizatori,2027,11,0,,
+Training utilizatori,2027,12,0,,
+Go-Live & stabilizare,2027,1,0,,
+Go-Live & stabilizare,2027,2,0,,
+Go-Live & stabilizare,2027,3,0,,
+Go-Live & stabilizare,2027,4,0,,
+Go-Live & stabilizare,2027,5,0,,
+Go-Live & stabilizare,2027,6,0,,
+Go-Live & stabilizare,2027,7,0,,
+Go-Live & stabilizare,2027,8,0,,
+Go-Live & stabilizare,2027,9,0,,
+Go-Live & stabilizare,2027,10,0,,
+Go-Live & stabilizare,2027,11,0,,
+Go-Live & stabilizare,2027,12,0,,
+Raportare & KPI,2027,1,0,,
+Raportare & KPI,2027,2,0,,
+Raportare & KPI,2027,3,0,,
+Raportare & KPI,2027,4,0,,
+Raportare & KPI,2027,5,0,,
+Raportare & KPI,2027,6,0,,
+Raportare & KPI,2027,7,0,,
+Raportare & KPI,2027,8,0,,
+Raportare & KPI,2027,9,0,,
+Raportare & KPI,2027,10,0,,
+Raportare & KPI,2027,11,0,,
+Raportare & KPI,2027,12,0,,
+Management schimbări,2027,1,0,,
+Management schimbări,2027,2,0,,
+Management schimbări,2027,3,0,,
+Management schimbări,2027,4,0,,
+Management schimbări,2027,5,0,,
+Management schimbări,2027,6,0,,
+Management schimbări,2027,7,0,,
+Management schimbări,2027,8,0,,
+Management schimbări,2027,9,0,,
+Management schimbări,2027,10,0,,
+Management schimbări,2027,11,0,,
+Management schimbări,2027,12,0,,
