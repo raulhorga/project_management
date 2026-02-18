@@ -1,5 +1,5 @@
 task,year,month,progress,status,comment
-1.07D Gap Leader Role [Digital],2026,1,10,Planned,"No Data"
+1.07D Gap Leader Role [Digital],2026,1,100,Done,"No Data"
 1.07D Gap Leader Role [Digital],2026,2,0,NotStarted,"No Data"
 1.07D Gap Leader Role [Digital],2026,3,0,NotStarted,"No Data"
 1.07D Gap Leader Role [Digital],2026,4,0,NotStarted,"No Data"
@@ -11,7 +11,7 @@ task,year,month,progress,status,comment
 1.07D Gap Leader Role [Digital],2026,10,0,NotStarted,"No Data"
 1.07D Gap Leader Role [Digital],2026,11,0,NotStarted,"No Data"
 1.07D Gap Leader Role [Digital],2026,12,0,NotStarted,"No Data"
-1.08D Supervisor Role [Digital],2026,1,20,Done,"No Data"
+1.08D Supervisor Role [Digital],2026,1,0,NotStarted,"No Data"
 1.08D Supervisor Role [Digital],2026,2,0,NotStarted,"No Data"
 1.08D Supervisor Role [Digital],2026,3,0,NotStarted,"No Data"
 1.08D Supervisor Role [Digital],2026,4,0,NotStarted,"No Data"
@@ -23,7 +23,7 @@ task,year,month,progress,status,comment
 1.08D Supervisor Role [Digital],2026,10,0,NotStarted,"No Data"
 1.08D Supervisor Role [Digital],2026,11,0,NotStarted,"No Data"
 1.08D Supervisor Role [Digital],2026,12,0,NotStarted,"No Data"
-1.12D Standardized Work (SW) [Digital],2026,1,0,NotStarted,"No Data"	
+1.12D Standardized Work (SW) [Digital],2026,1,20,Planned,"No Data"	
 1.12D Standardized Work (SW) [Digital],2026,2,0,NotStarted,"No Data"
 1.12D Standardized Work (SW) [Digital],2026,3,0,NotStarted,"No Data"
 1.12D Standardized Work (SW) [Digital],2026,4,0,NotStarted,"No Data"
@@ -238,5 +238,4 @@ task,year,month,progress,status,comment
 5.02D Management Control [Digital],2026,9,0,NotStarted,"No Data"
 5.02D Management Control [Digital],2026,10,0,NotStarted,"No Data"
 5.02D Management Control [Digital],2026,11,0,NotStarted,"No Data"
-
 5.02D Management Control [Digital],2026,12,0,NotStarted,"No Data"
