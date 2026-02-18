@@ -38,13 +38,10 @@ body{
 }
 
 .logo{
-  width:56px;
-  height:56px;
-  object-fit: contain;   /* IMPORTANT pentru PNG transparent */
-  border-radius: 0;      /* fără rotunjire pe PNG */
-  border: none;          /* elimină rama */
-  box-shadow: none;      /* elimină shadow-ul */
-  background: transparent; /* fundal transparent */
+  width: clamp(70px, 6vw, 110px);
+  height: clamp(70px, 6vw, 110px);
+  object-fit: contain;
+  background: transparent;
 }
 
 .titles h1{
