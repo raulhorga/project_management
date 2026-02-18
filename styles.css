@@ -23,9 +23,8 @@ body{
   position: sticky;
   top:0;
   z-index: 10;
-  background: rgba(11,16,32,0.75);
-  backdrop-filter: blur(10px);
-  border-bottom: 1px solid var(--border);
+  background: #000000;          /* negru complet */
+  border-bottom: 1px solid rgba(255,255,255,0.15);
 }
 
 .brand{
