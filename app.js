@@ -123,7 +123,7 @@ async function main() {
   // CSV columns așteptate:
   // task,year,month,progress,status,comment
   const tasks = [...new Set(rows.map(r => r.task).filter(Boolean))].sort((a,b)=>a.localeCompare(b, "ro"));
-  const months = buildMonthAxis(2025, 2027);
+  const months = buildMonthAxis(2026, 2027);
 
   // map rapid: task -> monthKey -> record
   const map = new Map();
@@ -259,3 +259,4 @@ main().catch(err => {
   console.error(err);
   alert("Eroare la încărcarea datelor. Verifică dacă rulezi pagina printr-un server local (nu direct file://) și dacă data.csv există.");
 });
+
