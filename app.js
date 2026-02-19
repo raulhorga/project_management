@@ -1,4 +1,4 @@
-const CSV_PATH = "data.csv";
+const CSV_PATH = "https://docs.google.com/spreadsheets/d/1LZaysTESh-eXwjvUOefLW3gz4XHt-AxJ0fU1XwZxyjE/edit?usp=drivesdk";
 
 const MONTHS = [
   "Ian", "Feb", "Mar", "Apr", "Mai", "Iun",
@@ -259,4 +259,5 @@ main().catch(err => {
   console.error(err);
   alert("Eroare la încărcarea datelor. Verifică dacă rulezi pagina printr-un server local (nu direct file://) și dacă data.csv există.");
 });
+
 
